@@ -10,12 +10,6 @@ public class PlayerPickable : LoadAutoComponents
     public BoxCollider2D BoxCollider => boxCollider2D;
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
-
-
     protected override void LoadComponents()
     {
         base.LoadComponents();
